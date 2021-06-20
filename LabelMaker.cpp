@@ -6,8 +6,7 @@ namespace sdds
 	LabelMaker::LabelMaker(int noOfLabels){
 	
 	
-		m_noOfLabels = noOfLabels;
-		
+		m_noOfLabels = noOfLabels;	
 		m_label = new Label[m_noOfLabels];
 		
 	}
@@ -29,8 +28,8 @@ namespace sdds
 			cout << endl;
 		}
 	}
-	LabelMaker::~LabelMaker(){
+	LabelMaker::~LabelMaker() {
 		delete[] m_label;
-
+		
 	}
 }
